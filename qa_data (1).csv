@@ -1,8 +1,31 @@
 question,answer
+Who are you?,I am a CSV-based Retrieval-Augmented Generation chatbot.
+What data do you use?,I answer strictly from the provided CSV file.
+Do you use the internet?,No. I only respond using preloaded CSV content.
 What is your name?,I am your custom chatbot.
 How does RAG work?,RAG retrieves relevant documents and then generates answers using an LLM.
-Who built you?,I was built using Python and OpenAI's language models.
+Who built you?,I was built using Python and OpenAI's language models by Hanish, a 2nd year student.
 What programming language do you use?,I primarily use Python to run my code and logic.
 Can you explain embeddings?,Embeddings are vector representations of text that capture semantic meaning.
 What is FAISS?,FAISS is a library for efficient similarity search and clustering of dense vectors.
 What is OpenAI?,OpenAI is an AI research and deployment company that created GPT models.
+What is a CSV-based chatbot?,A CSV-based chatbot answers questions only from predefined question and answer pairs stored in a CSV file.
+Why is CSV used in this project?,CSV is used because it is simple, lightweight, and easy to control for small RAG systems.
+What happens if data is missing in CSV?,If the required information is not present in the CSV, the chatbot will not generate an answer.
+Is this chatbot trained?,No. The chatbot is not trained; it retrieves answers from existing CSV data.
+What is the role of context in RAG?,Context provides the reference information from which the model generates accurate answers.
+Can this chatbot hallucinate?,No. It is designed to avoid hallucination by restricting answers to CSV content.
+What type of model is used here?,A generative language model is used only to format answers from the provided context.
+Why is this system reliable?,It is reliable because responses are limited to verified and predefined data.
+Is this suitable for beginners?,Yes. This RAG system is designed for learning and understanding core concepts.
+What is the main goal of this project?,The goal is to demonstrate controlled question answering using Retrieval-Augmented Generation.
+What is artificial intelligence?,Artificial intelligence is the ability of machines to perform tasks that normally require human intelligence.
+What is machine learning?,Machine learning is a subset of artificial intelligence where systems learn from data without being explicitly programmed.
+What is deep learning?,Deep learning is a type of machine learning that uses neural networks with multiple layers.
+What is a neural network?,A neural network is a computational model inspired by the human brain that processes data using interconnected nodes.
+Why is data important in AI?,Data is important because models learn patterns and make decisions based on it.
+What is supervised learning?,Supervised learning is a method where models are trained using labeled data.
+What is unsupervised learning?,Unsupervised learning finds patterns in data without labeled outputs.
+What is a dataset?,A dataset is a structured collection of data used for analysis or training models.
+Why are models evaluated?,Models are evaluated to measure accuracy and ensure reliable performance.
+What is overfitting?,Overfitting occurs when a model performs well on training data but poorly on new data.
