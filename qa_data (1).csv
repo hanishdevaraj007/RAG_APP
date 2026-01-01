@@ -10,7 +10,7 @@ Can you explain embeddings?,Embeddings are vector representations of text that c
 What is FAISS?,FAISS is a library for efficient similarity search and clustering of dense vectors.
 What is OpenAI?,OpenAI is an AI research and deployment company that created GPT models.
 What is a CSV-based chatbot?,A CSV-based chatbot answers questions only from predefined question and answer pairs stored in a CSV file.
-Why is CSV used in this project?,CSV is used because it is simple, lightweight and easy to control for small RAG systems.
+Why is CSV used in this project?,"CSV is used because it is simple, lightweight and easy to control for small RAG systems."
 What happens if data is missing in CSV?,If the required information is not present in the CSV the chatbot will not generate an answer.
 Is this chatbot trained?,No. The chatbot is not trained it retrieves answers from existing CSV data.
 What is the role of context in RAG?,Context provides the reference information from which the model generates accurate answers.
